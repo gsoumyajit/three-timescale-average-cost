@@ -8,7 +8,7 @@ import sys,os
 nS=20
 nA=4
 
-logrd="/data4/home/gsoumyajit/avg/data/ac1/"
+logrd="data/ac1/"
 if not os.path.exists(logrd):
           os.makedirs(logrd)
 run_num = len(next(os.walk(logrd))[2])
